@@ -1,0 +1,132 @@
+#projects {
+  max-width: 1040px;
+  height: 584px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-bottom: 144px;
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 330px;
+    height: 280px;
+    background-color: var(--base-gray-300);
+    border-radius: 12px;
+
+    img {
+      height: 156px;
+      width: 306px;
+      margin-top: 12px;
+      margin-inline: 12px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+    }
+
+    h3 {
+      color: var(--base-gray-600);
+      font: var(--title-sm);
+      font-weight: bold;
+      margin-inline: 12px;
+      margin-bottom: 8px;
+      align-self: flex-start;
+    }
+
+    p {
+      color: var(--base-gray-500);
+      font: var(--title-sm);
+      font-weight: normal;
+      margin-inline: 12px;
+      align-self: flex-start;
+    }
+  }
+
+  .card:hover {
+    border: solid 1px var(--base-gray-400);
+  }
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h4 {
+    font: var(--subtitle);
+    color: var(--principal-red);
+    margin-top: 72px;
+    margin-bottom: 8px;
+  }
+
+  h2 {
+    font: var(--title-md);
+    color: var(--base-gray-600);
+    margin-bottom: 56px;
+  }
+}
+
+.services-bg-color {
+  background-color: var(--base-gray-100);
+  width: 1366px;
+}
+
+#service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-inline: 120px;
+  padding-top: 88px;
+  padding-bottom: 120px;
+
+  .title-service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h4 {
+      font: var(--subtitle);
+      color: var(--principal-red);
+      margin-bottom: 8px;
+    }
+
+    h2 {
+      font: var(--title-md);
+      color: var(--base-gray-600);
+      margin-bottom: 56px;
+    }
+  }
+
+  .services {
+    max-width: 888px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+
+    .card {
+      padding: 20px;
+      border: solid var(--base-gray-200) 3px;
+      border-radius: 12px;
+      width: 280px;
+      height: 155px;
+      color: white;
+
+      h4 {
+        margin-top: 20px;
+        color: var(--base-gray-600);
+        font: var(--title-sm);
+      }
+
+      p {
+        margin-top: 8px;
+        font: var(--text-sm);
+        color: var(--base-gray-500);
+      }
+
+    }
+  }
+
+}
