@@ -47,7 +47,8 @@
     .social-button {
 
       background-color: var(--base-gray-300);
-      padding: 20px;
+      border: 1px solid var(--base-gray-300);
+      padding: 19px;
       border-radius: 8px;
 
       p {
